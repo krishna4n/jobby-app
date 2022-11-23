@@ -1,0 +1,29 @@
+.header-container {
+  background-color: #202020;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.nav-link {
+  color: #ffffff;
+  margin-right: 30px;
+}
+.header-logo {
+  height: 30px;
+}
+.header-icon {
+  font-size: 25px;
+}
+.logout-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #ffffff;
+}

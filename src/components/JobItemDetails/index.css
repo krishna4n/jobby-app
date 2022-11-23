@@ -1,0 +1,26 @@
+.job-details-item-container {
+  background-color: #000000;
+  padding: 20px;
+  color: #ffffff;
+  font-family: Roboto;
+}
+.company-logo-ratings-container {
+  display: flex;
+  align-items: center;
+}
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skill-item-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.skill-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

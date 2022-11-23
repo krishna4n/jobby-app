@@ -1,0 +1,75 @@
+.login-container {
+  height: 100vh;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+.login-card {
+  width: 400px;
+  height: 300px;
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.login-form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.username-container {
+  display: flex;
+  flex-direction: column;
+}
+.password-container {
+  display: flex;
+  flex-direction: column;
+}
+.username {
+  height: 40px;
+  width: 300px;
+  margin-bottom: 10px;
+  background-color: #272727;
+  border: 1px solid #64748b;
+  color: #ffffff;
+}
+.password {
+  height: 40px;
+  width: 300px;
+  margin-bottom: 10px;
+  background-color: #272727;
+  border: 1px solid #64748b;
+  color: #ffffff;
+}
+.username-label {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.password-label {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.website-logo {
+  height: 20px;
+  width: 80px;
+  margin-bottom: 10px;
+}
+.login-button {
+  align-self: stretch;
+  background-color: #6366f1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.login-error {
+  color: #ff0b37;
+}

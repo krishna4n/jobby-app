@@ -1,0 +1,25 @@
+.home-container {
+  margin-top: -30px;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  background-size: cover;
+  background-color: black;
+  padding: 40px;
+  font-family: Roboto;
+}
+.home-heading {
+  color: #ffffff;
+}
+.home-button {
+  background-color: #6366f1;
+  color: #ffffff;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.home-paragraph {
+  color: #ffffff;
+}

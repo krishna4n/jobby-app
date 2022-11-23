@@ -1,0 +1,133 @@
+.jobs-container {
+  background-color: #000000;
+  padding: 20px;
+}
+.job-search-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #64748b;
+  width: 93vw;
+  padding: 10px;
+}
+.job-search-input {
+  height: 25px;
+  width: 85vw;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #64748b;
+}
+.search-icon {
+  font-size: 18px;
+  color: #ffffff;
+}
+.profile-container {
+  font-family: Roboto;
+  margin-top: 20px;
+  padding: 10px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.employment-type-container {
+  font-family: Roboto;
+  align-self: flex-start;
+  color: #ffffff;
+  margin-left: -30px;
+}
+.employment-type-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.input-radio-button {
+  margin-right: 5px;
+}
+.salary-range-container {
+  font-family: Roboto;
+  align-self: flex-start;
+  color: #ffffff;
+  margin-left: -30px;
+}
+.salary-range-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.input-checkbox {
+  margin-right: 5px;
+}
+.input-label {
+  font-family: Roboto;
+  font-size: 10px;
+}
+.job-item-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.job-item-list-container {
+  margin-left: -30px;
+  padding: 20px;
+  background-color: #202020;
+  border-radius: 10px;
+  color: #ffffff;
+
+  margin-bottom: 10px;
+}
+.rating-star {
+  color: #fbbf24;
+  margin-right: 10px;
+}
+.company-logo {
+  height: 30px;
+  margin-right: 10px;
+}
+.job-item-logo-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.job-title-rating {
+  display: flex;
+  align-items: flex-start;
+}
+.job-title-container {
+  display: flex;
+  flex-direction: column;
+}
+.job-type-location-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.job-location-icon-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.input-icon {
+  margin-left: 10px;
+}
+.retry-button {
+  background-color: #4f46e5;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+.failure-view-container {
+  text-align: center;
+}
+.nodata-view-container {
+  text-align: center;
+  color: #ffffff;
+}
+.job-link {
+  text-decoration: none;
+}
